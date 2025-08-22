@@ -23,10 +23,10 @@ def main():
     parser.add_argument("query_text", type=str, help="The query text.")
     args = parser.parse_args()
     query_text = args.query_text
-    query_rag(query_text)
+    query(query_text)
 
 
-def query_rag(query_text: str):
+def query(query_text: str):
     embedding_function = get_embedding()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
