@@ -54,7 +54,7 @@ def test_catan_rules():
 # Provide negative example
 def test_neg_catan_rules():
     assert not query_and_validate(
-        question="How many VP are roads worth in catan?",
+        question="How many VP are roads worth in Catan?",
         expected_response="2",
     )
 
@@ -67,7 +67,7 @@ def test_codename_rules():
 
 def test_neg_codename_rules():
     assert not query_and_validate(
-        question="Are letters and numbers valid clues if they refer to meanings?",
+        question="Are letters and numbers valid clues if they refer to meanings in codenames?",
         expected_response="No",
     )
 

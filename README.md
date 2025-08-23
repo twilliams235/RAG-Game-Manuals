@@ -52,7 +52,7 @@ dynamically add or remove new instruction manuals.
 
 ### Query
 
-```python query.py ""How many words does the starting team guess in codenames?","```
+```python query.py "How many words does the starting team guess in codenames?"```
 
 ### Testing
 
